@@ -69,8 +69,6 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
 - [N/A](https://google.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -78,8 +76,6 @@
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -124,8 +120,6 @@ To run tests, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/SolomonTheCoder)
@@ -137,8 +131,6 @@ To run tests, run the following command:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[New HTML file]**
 - [ ] **[New CSS file]**
@@ -160,8 +152,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project... I encourage to support me by following me on github and thanks for your support.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -169,8 +159,6 @@ If you like this project... I encourage to support me by following me on github 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank Microverse for giving me this opportunity to become a software developer. 
 
