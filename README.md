@@ -24,7 +24,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Microverse Porfoilo] <a name="about-project"></a>
 
 > This is my second Microverse project. This project is called Microverse Portfoilo and in this project, am creating a website that contains all of my info as a software developer.
 
