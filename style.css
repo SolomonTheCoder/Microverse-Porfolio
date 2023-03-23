@@ -173,7 +173,7 @@ header i {
   padding: 6px 10px;
 }
 
-.About button {
+.Myself button {
   margin: 12px 24px 0 24px;
   padding: 5px 4px 5px 4px;
   background-color: white;
@@ -184,6 +184,7 @@ header i {
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
+  transition-duration: 0.4s;
 }
 
 .Card1 button {
@@ -495,6 +496,11 @@ header i {
   font-weight: 500;
   font-size: 17px;
   transition-duration: 0.4s;
+}
+
+.Myself button:hover {
+  background-color: #1a2236;
+  color: #ffff;
 }
 
 .Card4 button:hover {
