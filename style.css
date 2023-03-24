@@ -115,29 +115,31 @@ header i {
   height: 8px;
 }
 
-.Card1-tech div {
+.Card1-tech {
   display: flex;
   justify-content: space-between;
   align-content: center;
   align-items: center;
   margin-right: 59px;
+  list-style: none;
+  padding: 0;
 }
 
-.Card1-P p.P1 {
+.Card1-tech .P1 {
   color: #344563;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 13px;
 }
 
-.Card1-P p.P2 {
+.Card1-tech .P2 {
   color: #7a869a;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 13px;
 }
 
-.Card1-P p.P3 {
+.Card1-tech .P3 {
   color: #7a869a;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -151,7 +153,7 @@ header i {
   font-size: 15px;
 }
 
-.Card1 ul {
+.T1 {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -159,17 +161,17 @@ header i {
   padding: 0;
 }
 
-.Card1 li {
+.T1 li {
   list-style: none;
   background-color: #ebebff;
   border-radius: 5px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 80%;
   margin: 16px 10px 0 0;
-  color: #1a2236;
+  color: #6070ff;
   padding: 6px 10px;
 }
 
@@ -228,29 +230,31 @@ header i {
   height: 8px;
 }
 
-.Card2-tech div {
+.Card2-tech {
   display: flex;
   justify-content: space-between;
   align-content: center;
   align-items: center;
   margin-right: 59px;
+  list-style: none;
+  padding: 0;
 }
 
-.Card2-P p.P1 {
+.Card2-tech .P1 {
   color: #344563;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 13px;
 }
 
-.Card2-P p.P2 {
+.Card2-tech .P2 {
   color: #7a869a;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 13px;
 }
 
-.Card2-P p.P3 {
+.Card2-tech .P3 {
   color: #7a869a;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -264,7 +268,7 @@ header i {
   font-size: 15px;
 }
 
-.Card2 ul {
+.T2 {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -272,17 +276,17 @@ header i {
   padding: 0;
 }
 
-.Card2 li {
+.T2 li {
   list-style: none;
   background-color: #ebebff;
   border-radius: 5px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 80%;
   margin: 16px 10px 0 0;
-  color: #1a2236;
+  color: #6070ff;
   padding: 6px 10px;
 }
 
@@ -327,29 +331,30 @@ header i {
   height: 8px;
 }
 
-.Card3-tech div {
+.Card3-tech {
   display: flex;
   justify-content: space-between;
   align-content: center;
   align-items: center;
   margin-right: 59px;
+  padding: 0;
 }
 
-.Card3-P p.P1 {
+.Card3-tech .P1 {
   color: #344563;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 13px;
 }
 
-.Card3-P p.P2 {
+.Card3-tech .P2 {
   color: #7a869a;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 13px;
 }
 
-.Card3-P p.P3 {
+.Card3-tech .P3 {
   color: #7a869a;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -363,7 +368,7 @@ header i {
   font-size: 15px;
 }
 
-.Card3 ul {
+.T3 {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -371,17 +376,17 @@ header i {
   padding: 0;
 }
 
-.Card3 li {
+.T3 > li {
   list-style: none;
   background-color: #ebebff;
   border-radius: 5px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 80%;
   margin: 16px 10px 0 0;
-  color: #1a2236;
+  color: #6070ff;
   padding: 6px 10px;
 }
 
@@ -426,29 +431,31 @@ header i {
   height: 8px;
 }
 
-.Card4-tech div {
+.Card4-tech {
   display: flex;
   justify-content: space-between;
   align-content: center;
   align-items: center;
   margin-right: 59px;
+  padding: 0;
+  list-style: none;
 }
 
-.Card4-P p.P1 {
+.Card4-tech .P1 {
   color: #344563;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 13px;
 }
 
-.Card4-P p.P2 {
+.Card4-tech .P2 {
   color: #7a869a;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 13px;
 }
 
-.Card4-P p.P3 {
+.Card4-tech .P3 {
   color: #7a869a;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -462,7 +469,7 @@ header i {
   font-size: 15px;
 }
 
-.Card4 ul {
+.T4 {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -470,17 +477,17 @@ header i {
   padding: 0;
 }
 
-.Card4 li {
+.T4 > li {
   list-style: none;
   background-color: #ebebff;
   border-radius: 5px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 80%;
   margin: 16px 10px 0 0;
-  color: #1a2236;
+  color: #6070ff;
   padding: 6px 10px;
 }
 
@@ -579,6 +586,8 @@ header i {
   background-color: #e7e8e9;
   border-radius: 10px;
   font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
   padding: 12px;
   margin: 6px 12px 6px 12px;
 }
@@ -596,15 +605,25 @@ header i {
   margin: 0 0 0 12px;
   padding-left: 5px;
   list-style: none;
-  color: #000;
+  color: #253858;
 }
 
-.Language > h2 {
+.lang {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 20px;
   margin: 60px 36px 36px 36px;
   color: #000;
+}
+
+.lang i {
+  color: #acb7c3;
+  margin: 63px 26px 0 64px;
 }
 
 .Frame,
@@ -626,10 +645,7 @@ header i {
 
 .Frame > i,
 .skill > i {
+  color: #acb7c3;
   align-self: center;
   margin: 0 42px 0 0;
-}
-
-.Language h2 > i {
-  margin-left: 150px;
 }
