@@ -115,7 +115,7 @@ header i {
   height: 8px;
 }
 
-.Card1-tech {
+.Card1-tech div {
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -228,7 +228,7 @@ header i {
   height: 8px;
 }
 
-.Card2-tech {
+.Card2-tech div {
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -327,7 +327,7 @@ header i {
   height: 8px;
 }
 
-.Card3-tech {
+.Card3-tech div {
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -426,7 +426,7 @@ header i {
   height: 8px;
 }
 
-.Card4-tech {
+.Card4-tech div {
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -589,18 +589,21 @@ header i {
   height: 48px;
 }
 
-.js-img-box > p,
-.html-img-box > p,
-.css-img-box > p {
+.js-img-box > ul,
+.html-img-box > ul,
+.css-img-box > ul {
   align-self: center;
-  margin: 0 0 0 16px;
+  margin: 0 0 0 12px;
+  padding-left: 5px;
+  list-style: none;
+  color: #000;
 }
 
 .Language > h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 20px;
-  margin: 60px 36px 0;
+  margin: 60px 36px 36px 36px;
   color: #000;
 }
 
@@ -625,4 +628,8 @@ header i {
 .skill > i {
   align-self: center;
   margin: 0 42px 0 0;
+}
+
+.Language h2 > i {
+  margin-left: 150px;
 }
