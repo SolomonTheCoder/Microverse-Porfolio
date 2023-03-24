@@ -120,7 +120,7 @@ To run tests, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Solomon Afutu**
 
 - GitHub: [@githubhandle](https://github.com/SolomonTheCoder)
 - Twitter: [@twitterhandle](https://twitter.com/SolomonAfutu)
