@@ -696,3 +696,15 @@ header i {
   margin: 18px 24px 20px 24px;
   border-radius: 10px;
 }
+
+button {
+  font-family: "Poppins", serif;
+  font-size: 17px;
+  color: #396df2;
+  margin: 22px 0 45px 24px;
+  height: 48px;
+  width: 142px;
+  padding: 12px, 16px, 12px, 16px;
+  border-radius: 10px;
+  background-color: #fff;
+}
