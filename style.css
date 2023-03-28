@@ -534,6 +534,7 @@ header i {
   display: flex;
   flex-direction: column;
   background-color: #ffff;
+  border-top-right-radius: 20px;
 }
 
 .Myself > h2 {
@@ -631,7 +632,7 @@ header i {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px #000 solid;
-  margin: 0 24px 0 24px;
+  margin: 0 24px 10px 24px;
 }
 
 .Frame > p,
@@ -648,4 +649,50 @@ header i {
   color: #acb7c3;
   align-self: center;
   margin: 0 42px 0 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/contact\ form\ shapes-mobile@2x.png);
+  background-color: #6070ff;
+  background-repeat: no-repeat;
+  background-size: 265px;
+  background-position: right;
+  border-top-left-radius: 20px;
+}
+
+.contact-form h3 {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+}
+
+.contact-form p {
+  text-align: center;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+  margin: 12px 24px 54px 24px;
+}
+
+.form {
+  width: 327px;
+  height: 48px;
+  margin: 0 24px 20px 24px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.textarea {
+  font-family: "Poppins", serif;
+  width: 327px;
+  margin: 18px 24px 20px 24px;
+  border-radius: 10px;
 }
