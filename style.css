@@ -709,8 +709,8 @@ button:hover {
 
 .form {
   height: 48px;
-  margin: 0 24px 20px 24px;
-  padding: 0 41% 0 10px;
+  margin: 0 24px 20px 22px;
+  padding: 0 41% 0 16px;
   border-radius: 8px;
   border: none;
   outline: none;
@@ -720,7 +720,7 @@ button:hover {
 .textarea {
   font-family: "Poppins", serif;
   height: 170px;
-  margin: 18px 24px 20px 24px;
-  padding: 12px 33% 0 10px;
+  margin: 18px 18px 20px 23px;
+  padding: 12px 33% 0 16px;
   border-radius: 8px;
 }
