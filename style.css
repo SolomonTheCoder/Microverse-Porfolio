@@ -520,7 +520,8 @@ button {
 }
 
 button:hover {
-  background-color: #1a2236;
+  background-color: #6070ff;
+  border: white 1px solid;
   color: #ffff;
 }
 
@@ -629,7 +630,6 @@ button:hover {
 }
 
 .lang {
-  display: flex;
   justify-content: space-between;
 }
 
@@ -648,7 +648,6 @@ button:hover {
 
 .Frame,
 .skill {
-  display: flex;
   justify-content: space-between;
   border-bottom: 1px #000 solid;
   margin: 0 24px 10px 24px;
@@ -671,8 +670,6 @@ button:hover {
 }
 
 .contact-form {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-image: url(img/contact\ form\ shapes-mobile@2x.png);
@@ -681,6 +678,15 @@ button:hover {
   background-size: 265px;
   background-position: right;
   border-top-left-radius: 20px;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-form h3 {
@@ -702,10 +708,10 @@ button:hover {
 }
 
 .form {
-  width: 327px;
   height: 48px;
   margin: 0 24px 20px 24px;
-  border-radius: 10px;
+  padding: 0 41% 0 10px;
+  border-radius: 8px;
   border: none;
   outline: none;
   font-family: "Poppins", serif;
@@ -713,7 +719,8 @@ button:hover {
 
 .textarea {
   font-family: "Poppins", serif;
-  width: 327px;
+  height: 170px;
   margin: 18px 24px 20px 24px;
-  border-radius: 10px;
+  padding: 12px 33% 0 10px;
+  border-radius: 8px;
 }
