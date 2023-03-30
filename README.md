@@ -126,6 +126,12 @@ To run tests, run the following command:
 - Twitter: [@twitterhandle](https://twitter.com/SolomonAfutu)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/solomon-afutu-164b95255/)
 
+👤 **Binod Bhusal**
+
+- GitHub: [@githubhandle](https://github.com/binodbhusal)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->

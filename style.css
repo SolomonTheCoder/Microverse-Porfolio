@@ -175,6 +175,20 @@ header i {
   padding: 6px 10px;
 }
 
+button {
+  font-family: "Poppins", serif;
+  font-size: 17px;
+  color: #396df2;
+  margin: 22px 0 45px 24px;
+  height: 48px;
+  width: 142px;
+  padding: 12px, 16px, 12px, 16px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: none;
+  transition-duration: 0.4s;
+}
+
 .Myself button {
   margin: 12px 24px 0 24px;
   padding: 5px 4px 5px 4px;
@@ -505,6 +519,12 @@ header i {
   transition-duration: 0.4s;
 }
 
+button:hover {
+  background-color: #6070ff;
+  border: white 1px solid;
+  color: #ffff;
+}
+
 .Myself button:hover {
   background-color: #1a2236;
   color: #ffff;
@@ -534,6 +554,7 @@ header i {
   display: flex;
   flex-direction: column;
   background-color: #ffff;
+  border-top-right-radius: 20px;
 }
 
 .Myself > h2 {
@@ -609,7 +630,6 @@ header i {
 }
 
 .lang {
-  display: flex;
   justify-content: space-between;
 }
 
@@ -628,10 +648,9 @@ header i {
 
 .Frame,
 .skill {
-  display: flex;
   justify-content: space-between;
   border-bottom: 1px #000 solid;
-  margin: 0 24px 0 24px;
+  margin: 0 24px 10px 24px;
 }
 
 .Frame > p,
@@ -648,4 +667,60 @@ header i {
   color: #acb7c3;
   align-self: center;
   margin: 0 42px 0 0;
+}
+
+.contact-form {
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/contact\ form\ shapes-mobile@2x.png);
+  background-color: #6070ff;
+  background-repeat: no-repeat;
+  background-size: 265px;
+  background-position: right;
+  border-top-left-radius: 20px;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form h3 {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+  margin: 103px 0 0 0;
+}
+
+.contact-form p {
+  text-align: center;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+  margin: 12px 24px 52px 24px;
+}
+
+.form {
+  height: 48px;
+  margin: 0 24px 20px 22px;
+  padding: 0 41% 0 16px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-family: "Poppins", serif;
+}
+
+.textarea {
+  font-family: "Poppins", serif;
+  height: 170px;
+  margin: 18px 18px 20px 23px;
+  padding: 12px 33% 0 16px;
+  border-radius: 8px;
 }
