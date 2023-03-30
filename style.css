@@ -26,6 +26,10 @@ main {
   padding: 3px;
 }
 
+.desktop-Nav {
+  display: none;
+}
+
 header i {
   color: #6070ff;
   padding-top: 5px;
@@ -39,6 +43,7 @@ header i {
   flex-direction: column;
   background-image: url(img/header-shapes\ mobile.png);
   background-repeat: no-repeat;
+  background-size: cover;
   background-color: white;
   border-bottom-left-radius: 40px;
   height: 630px;
@@ -273,6 +278,10 @@ button {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 13px;
+}
+
+.Card2-tech .desktop-P1 {
+  display: none;
 }
 
 .Card2 p {
@@ -622,11 +631,18 @@ button:hover {
 .js-img-box > ul,
 .html-img-box > ul,
 .css-img-box > ul {
-  align-self: center;
+  display: flex;
+  align-items: center;
   margin: 0 0 0 12px;
   padding-left: 5px;
   list-style: none;
   color: #253858;
+}
+
+.L1,
+.L2,
+.L3 {
+  margin-left: 10px;
 }
 
 .lang {
@@ -723,4 +739,317 @@ button:hover {
   margin: 18px 18px 20px 23px;
   padding: 12px 33% 0 16px;
   border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .Nav-bar i {
+    display: none;
+  }
+
+  .desktop-Nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 20px;
+  }
+
+  .desktop-Nav > a {
+    text-decoration: none;
+    color: #344563;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .header-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 721.46px;
+    margin-bottom: 142px;
+    background-color: white;
+    border-bottom-left-radius: 90px;
+    background-image: url(img/Header\ bg.png);
+  }
+
+  .header-main h1 {
+    font-weight: 700;
+    font-size: 48px;
+    padding: 0;
+    margin: 0 260px 0 260px;
+  }
+
+  .header-main p {
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0;
+    margin: 12px 260px 12px 260px;
+  }
+
+  .header-main h4 {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0;
+    margin: 12px 260px 16px;
+  }
+
+  .header-main a {
+    margin: 10px;
+  }
+
+  .header-main ul {
+    margin: 14px 210px;
+    padding-left: 34px;
+  }
+
+  .Cards {
+    margin: 6%;
+  }
+
+  .Card1 {
+    display: flex;
+    flex-direction: row;
+    height: 496px;
+    width: 1156px;
+  }
+
+  .Card1 > img {
+    width: 544px;
+  }
+
+  .Card1-P {
+    padding: 2% 0 0 5%;
+  }
+
+  .Card1-tech {
+    margin-right: 200px;
+  }
+
+  .Card1-tech .P1 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .Card1-tech .P2 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .Card1-tech .P3 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .Card1 p {
+    margin-top: 32px;
+    margin-bottom: 0;
+  }
+
+  .T1 {
+    margin-top: 24px;
+  }
+
+  .Card2 {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 496px;
+    width: 1156px;
+  }
+
+  .Card2 > img {
+    width: 544px;
+  }
+
+  .Card2-P {
+    padding: 2% 5% 0 0;
+  }
+
+  .Card2-tech {
+    margin-right: 200px;
+  }
+
+  .Card2-tech .P1 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .Card2-tech .P2 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .Card2-tech .P3 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .Card2 p {
+    margin-top: 32px;
+    margin-bottom: 0;
+  }
+
+  .T2 {
+    margin-top: 24px;
+  }
+
+  .Card3 {
+    display: flex;
+    flex-direction: row;
+    height: 496px;
+    width: 1156px;
+  }
+
+  .Card3 > img {
+    width: 544px;
+  }
+
+  .Card3-P {
+    padding: 2% 0 0 5%;
+  }
+
+  .Card3-tech {
+    margin-right: 200px;
+  }
+
+  .Card3-tech > img {
+    margin: 0;
+  }
+
+  .Card3-tech .P1 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0;
+  }
+
+  .Card3-tech .P2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0;
+  }
+
+  .Card3-tech .P3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0;
+  }
+
+  .Card3 p {
+    margin-top: 32px;
+    margin-bottom: 0;
+  }
+
+  .T3 {
+    margin-top: 24px;
+  }
+
+  .Card4 {
+    display: flex;
+    flex-direction: row;
+    height: 496px;
+    width: 1156px;
+  }
+
+  .Card4 > img {
+    width: 544px;
+  }
+
+  .Card4-P {
+    padding: 2% 0 0 5%;
+  }
+
+  .Card4-tech {
+    margin-right: 200px;
+  }
+
+  .Card4-tech .P1 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .Card4-tech .P2 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .Card4-tech .P3 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .Card4 p {
+    margin-top: 32px;
+    margin-bottom: 0;
+  }
+
+  .T4 {
+    margin-top: 24px;
+  }
+
+  .About {
+    flex-direction: row;
+  }
+
+  .Myself {
+    margin: 166px 24px 191px 143px;
+  }
+
+  .Language {
+    margin: 142px 142px 166px 24px;
+    padding-top: 5%;
+  }
+
+  .Lang-box {
+    flex-direction: row;
+  }
+
+  .js-img-box,
+  .html-img-box,
+  .css-img-box {
+    background-color: #acb7c3;
+    width: 122px;
+    height: 120px;
+    margin-top: 12px;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+  .js-img-box li,
+  .html-img-box li,
+  .css-img-box li {
+    margin: 16px 12px 0 12px;
+  }
+
+  .js-img-box ul,
+  .html-img-box ul,
+  .css-img-box ul {
+    display: inline-block;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  .contact-form p {
+    margin: 12px 30% 12px 30%;
+  }
+
+  .contact-form {
+    text-align: center;
+    background-image: url(img/contact\ form\ background\ shapes@2x.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 12px 9%;
+  }
+
+  button {
+    margin: 22px 0 45px 0;
+  }
 }
