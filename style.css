@@ -24,6 +24,11 @@ main {
   color: #6070ff;
   margin-left: 24px;
   padding: 3px;
+  transition: all 3s;
+}
+
+.Nav-bar a:hover {
+  transform: rotateY(360deg);
 }
 
 .desktop-Nav {
