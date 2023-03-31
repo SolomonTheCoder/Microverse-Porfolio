@@ -27,10 +27,6 @@ main {
   transition: all 3s;
 }
 
-.Nav-bar a:hover {
-  transform: rotateY(360deg);
-}
-
 .desktop-Nav {
   display: none;
 }
@@ -604,6 +600,10 @@ button:hover {
 .Myself ul {
   color: #505f79;
   padding-left: 30px;
+}
+
+.Nav-bar a:hover {
+  transform: rotateY(360deg);
 }
 
 .Lang-box {
