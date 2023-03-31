@@ -78,6 +78,12 @@ header i {
 .header-main a {
   color: #505f79;
   padding: 4px;
+  transition-duration: 0.5s;
+}
+
+.header-main ul li:hover {
+  transform: scale(1.5);
+  transition: 0.5s;
 }
 
 .header-main ul {
