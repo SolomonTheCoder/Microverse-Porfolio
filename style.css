@@ -81,11 +81,6 @@ header i {
   transition-duration: 0.5s;
 }
 
-.header-main ul li:hover {
-  transform: scale(1.5);
-  transition: 0.5s;
-}
-
 .header-main ul {
   display: flex;
   color: #505f79;
@@ -519,6 +514,11 @@ button {
   margin: 16px 10px 0 0;
   color: #6070ff;
   padding: 6px 10px;
+}
+
+.header-main ul li:hover {
+  transform: scale(1.5);
+  transition: 0.5s;
 }
 
 .Card4 button {
