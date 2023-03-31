@@ -126,11 +126,11 @@ To run tests, run the following command:
 - Twitter: [@twitterhandle](https://twitter.com/SolomonAfutu)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/solomon-afutu-164b95255/)
 
-👤 **Binod Bhusal**
+👤 **Hafiz Massam TabraizKhan**
 
-- GitHub: [@githubhandle](https://github.com/binodbhusal)
-- Twitter: [@twitterhandle](https://mobile.twitter.com/binodbhusal)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/binodbhusal/)
+- GitHub: [@githubhandle](https://github.com/HafizMassamTabraizKhan)
+- Twitter: [@twitterhandle](https://twitter.com/MassamTabraiz)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/hafiz-massam-tabraiz-khan-167644255/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
