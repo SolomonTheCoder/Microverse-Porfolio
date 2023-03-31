@@ -608,7 +608,7 @@ button:hover {
   padding-left: 30px;
 }
 
-.Nav-bar a:hover {
+.Nav-bar > a:hover {
   transform: rotateY(360deg);
 }
 
