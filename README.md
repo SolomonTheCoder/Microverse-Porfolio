@@ -69,7 +69,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [N/A](https://google.com)
+- [solomonthecoder]( https://solomonthecoder.github.io/Microverse-Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
