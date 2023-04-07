@@ -172,6 +172,10 @@ I would like to thank Microverse for giving me this opportunity to become a soft
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## LOOM VIDEO
+
+Checkout my video (https://www.loom.com/share/bd32b14309eb4608a73fe02147840b02)
+
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
